@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {defaultState, recordAttempt, recommendLevel, matchesOrder, numberName, loadState} from '../dist/core.js';
+test('la lectura realizada no se convierte en pronunciación correcta',()=>{const s=defaultState();recordAttempt(s,{domain:'reading',id:'r1',correct:null,help:false});assert.equal(s.history[0].correct,null);assert.equal(s.history[0].domain,'reading');});
+test('ayuda y autocorrección impiden un salto automático de nivel',()=>{const s=defaultState();for(let i=0;i<5;i++)recordAttempt(s,{domain:'sum',id:'a'+i,correct:true,help:true,errors:1});assert.equal(recommendLevel(s,'sum',0,1),0);});
+test('cinco respuestas independientes sugieren avanzar dentro del límite',()=>{const s=defaultState();for(let i=0;i<5;i++)recordAttempt(s,{domain:'counting',id:'a'+i,correct:true,help:false,errors:0});assert.equal(recommendLevel(s,'counting',0,2),1);assert.equal(recommendLevel(s,'counting',2,2),2);});
+test('orden admite alternativas expresamente correctas',()=>{assert.ok(matchesOrder(['Hoy','Lía','lee'],[['Lía','lee','hoy'],['Hoy','Lía','lee']]));assert.ok(!matchesOrder(['lee','Hoy','Lía'],[['Lía','lee','hoy']]));});
+test('nombres españoles de números con tildes y cambios de decena',()=>{assert.equal(numberName(22),'veintidós');assert.equal(numberName(31),'treinta y uno');assert.equal(numberName(100),'cien');assert.equal(numberName(0),'cero');});
+test('almacenamiento corrupto vuelve a valores seguros',()=>{assert.deepEqual(loadState({getItem:()=>'{broken'}),defaultState());assert.deepEqual(loadState({getItem:()=>'{"version":1,"settings":{"readingLevel":99},"history":null}'}),defaultState());});
+test('la adaptación solo usa respuestas del nivel actual',()=>{const s=defaultState();for(let i=0;i<5;i++)recordAttempt(s,{domain:'counting',id:'a'+i,correct:true,help:false,errors:0,levelIndex:0});assert.equal(recommendLevel(s,'counting',1,2),1);});

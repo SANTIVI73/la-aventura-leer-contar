@@ -1,0 +1,1838 @@
+{
+  "stories": [
+    {
+      "id": "forest-1",
+      "title": "Una nuez para después",
+      "level": 1,
+      "theme": "forest",
+      "intro": "Mira el título. ¿Qué animal podría guardar una nuez?",
+      "sentences": [
+        "Lía ve una ardilla con una nuez en el bosque.",
+        "La ardilla sube al árbol y guarda la nuez para comer más tarde."
+      ],
+      "during": "Haz una pausa. ¿Qué lleva la ardilla?",
+      "questions": [
+        {
+          "prompt": "¿Qué animal ve Lía?",
+          "options": [
+            "Un pato.",
+            "Una ardilla.",
+            "Un conejo."
+          ],
+          "answer": 1,
+          "explanation": "Lía ve una ardilla con una nuez."
+        },
+        {
+          "prompt": "¿Adónde sube la ardilla?",
+          "options": [
+            "Al árbol.",
+            "Al puente.",
+            "A una mesa."
+          ],
+          "answer": 0,
+          "explanation": "El cuento dice que la ardilla sube al árbol."
+        },
+        {
+          "prompt": "¿Para qué guarda la nuez?",
+          "options": [
+            "Para regar una flor.",
+            "Para jugar con Lía.",
+            "Para comer más tarde."
+          ],
+          "answer": 2,
+          "explanation": "La ardilla guarda la nuez para tener comida después."
+        }
+      ],
+      "events": [
+        "Lía ve una ardilla con una nuez.",
+        "La ardilla sube al árbol.",
+        "La ardilla guarda la nuez."
+      ]
+    },
+    {
+      "id": "river-1",
+      "title": "Un pato tranquilo",
+      "level": 1,
+      "theme": "river",
+      "intro": "Piensa en un río. ¿Qué animales podrías ver allí?",
+      "sentences": [
+        "Leo llega al río y ve un pato.",
+        "Para verlo sin asustarlo, Leo se sienta lejos y mira en silencio."
+      ],
+      "during": "Haz una pausa. ¿Quién ha llegado al río?",
+      "questions": [
+        {
+          "prompt": "¿Quién llega al río?",
+          "options": [
+            "Nora.",
+            "Leo.",
+            "Lía."
+          ],
+          "answer": 1,
+          "explanation": "La primera frase cuenta que Leo llega al río."
+        },
+        {
+          "prompt": "¿Cómo mira Leo al pato?",
+          "options": [
+            "En silencio.",
+            "Dando gritos.",
+            "Dando palmadas."
+          ],
+          "answer": 0,
+          "explanation": "Leo se sienta lejos y mira en silencio."
+        },
+        {
+          "prompt": "¿Por qué se sienta lejos?",
+          "options": [
+            "Porque busca una nuez.",
+            "Porque quiere regar.",
+            "Porque no quiere asustar al pato."
+          ],
+          "answer": 2,
+          "explanation": "Leo quiere ver al pato sin asustarlo."
+        }
+      ],
+      "events": [
+        "Leo llega al río.",
+        "Leo ve un pato.",
+        "Leo se sienta lejos."
+      ]
+    },
+    {
+      "id": "garden-1",
+      "title": "Agua para la planta",
+      "level": 1,
+      "theme": "garden",
+      "intro": "¿Qué necesita una planta para crecer? Lee para descubrir qué hace Nora.",
+      "sentences": [
+        "Nora toca la tierra seca de una maceta.",
+        "Busca agua y riega la planta para que crezca."
+      ],
+      "during": "Haz una pausa. ¿Cómo está la tierra?",
+      "questions": [
+        {
+          "prompt": "¿Quién cuida la planta?",
+          "options": [
+            "Bruno.",
+            "Leo.",
+            "Nora."
+          ],
+          "answer": 2,
+          "explanation": "Nora toca la tierra y después riega la planta."
+        },
+        {
+          "prompt": "¿Qué busca Nora?",
+          "options": [
+            "Agua.",
+            "Una pluma.",
+            "Una bufanda."
+          ],
+          "answer": 0,
+          "explanation": "Nora busca agua para regar."
+        },
+        {
+          "prompt": "¿Para qué riega la planta?",
+          "options": [
+            "Para esconder una nuez.",
+            "Para que crezca.",
+            "Para hacer ruido."
+          ],
+          "answer": 1,
+          "explanation": "El cuento dice que Nora riega la planta para que crezca."
+        }
+      ],
+      "events": [
+        "Nora toca la tierra seca.",
+        "Nora busca agua.",
+        "Nora riega la planta."
+      ]
+    },
+    {
+      "id": "forest-2",
+      "title": "La pluma azul",
+      "level": 2,
+      "theme": "forest",
+      "intro": "Mira el título e imagina cómo será la pluma.",
+      "sentences": [
+        "Una mañana, Bruno pasea por el bosque con su abuela.",
+        "Junto al sendero encuentra una pluma azul.",
+        "Su abuela le propone dibujarla para recordar sus colores.",
+        "Bruno saca un cuaderno y dibuja la pluma con cuidado.",
+        "Después deja la pluma en el suelo y sigue el paseo."
+      ],
+      "during": "Haz una pausa. ¿Qué ha encontrado Bruno junto al sendero?",
+      "questions": [
+        {
+          "prompt": "¿Con quién pasea Bruno?",
+          "options": [
+            "Con su abuela.",
+            "Con su hermano.",
+            "Con Nora."
+          ],
+          "answer": 0,
+          "explanation": "Bruno pasea por el bosque con su abuela."
+        },
+        {
+          "prompt": "¿Qué hace Bruno en el cuaderno?",
+          "options": [
+            "Escribe una receta.",
+            "Dibuja la pluma.",
+            "Pega una hoja."
+          ],
+          "answer": 1,
+          "explanation": "Bruno saca el cuaderno y dibuja la pluma con cuidado."
+        },
+        {
+          "prompt": "¿Para qué le propone su abuela dibujar la pluma?",
+          "options": [
+            "Para aprender a nadar.",
+            "Para tapar el sendero.",
+            "Para recordar sus colores."
+          ],
+          "answer": 2,
+          "explanation": "La abuela propone el dibujo para que Bruno recuerde los colores."
+        }
+      ],
+      "events": [
+        "Bruno encuentra una pluma azul.",
+        "Bruno dibuja la pluma.",
+        "Bruno deja la pluma en el suelo."
+      ]
+    },
+    {
+      "id": "river-2",
+      "title": "El dibujo del puente",
+      "level": 2,
+      "theme": "river",
+      "intro": "¿Has visto un puente sobre un río? Imagina su forma.",
+      "sentences": [
+        "Inés lleva sus lápices a un banco junto al río.",
+        "Desde allí ve un puente de piedra.",
+        "Quiere dibujarlo, pero el sol le molesta en los ojos.",
+        "Su padre abre una sombrilla para darle sombra.",
+        "Inés termina el dibujo y se lo enseña."
+      ],
+      "during": "Haz una pausa. ¿Qué quiere dibujar Inés?",
+      "questions": [
+        {
+          "prompt": "¿Quién lleva los lápices?",
+          "options": [
+            "El abuelo de Hugo.",
+            "Inés.",
+            "La abuela de Bruno."
+          ],
+          "answer": 1,
+          "explanation": "Inés lleva sus lápices a un banco junto al río."
+        },
+        {
+          "prompt": "¿Qué dibuja Inés?",
+          "options": [
+            "Una guitarra.",
+            "Una maceta.",
+            "Un puente de piedra."
+          ],
+          "answer": 2,
+          "explanation": "Inés ve el puente de piedra y quiere dibujarlo."
+        },
+        {
+          "prompt": "¿Por qué abre su padre la sombrilla?",
+          "options": [
+            "Para darle sombra a Inés.",
+            "Para recoger piedras.",
+            "Para ocultar el dibujo."
+          ],
+          "answer": 0,
+          "explanation": "El sol le molesta en los ojos, así que su padre le da sombra con la sombrilla."
+        }
+      ],
+      "events": [
+        "Inés ve el puente.",
+        "Su padre abre una sombrilla.",
+        "Inés termina el dibujo."
+      ]
+    },
+    {
+      "id": "garden-2",
+      "title": "La cesta de tomates",
+      "level": 2,
+      "theme": "garden",
+      "intro": "¿Qué verduras conoces? Hoy visitarás un pequeño huerto.",
+      "sentences": [
+        "Hugo entra en el huerto con una cesta vacía.",
+        "Su abuelo le muestra los tomates rojos.",
+        "Hugo recoge tres tomates maduros y los pone en la cesta.",
+        "Después lleva la cosecha a la cocina.",
+        "Allí los lava para quitarles la tierra antes de preparar la ensalada."
+      ],
+      "during": "Haz una pausa. ¿De qué color son los tomates que recoge Hugo?",
+      "questions": [
+        {
+          "prompt": "¿Quién muestra los tomates a Hugo?",
+          "options": [
+            "Su abuelo.",
+            "Su amiga.",
+            "Su padre."
+          ],
+          "answer": 0,
+          "explanation": "El abuelo le muestra los tomates rojos."
+        },
+        {
+          "prompt": "¿Cuántos tomates recoge Hugo?",
+          "options": [
+            "Dos.",
+            "Cinco.",
+            "Tres."
+          ],
+          "answer": 2,
+          "explanation": "Hugo recoge tres tomates maduros."
+        },
+        {
+          "prompt": "¿Para qué lava los tomates?",
+          "options": [
+            "Para pintarlos.",
+            "Para quitarles la tierra.",
+            "Para que pesen más."
+          ],
+          "answer": 1,
+          "explanation": "Hugo los lava para quitarles la tierra antes de preparar la ensalada."
+        }
+      ],
+      "events": [
+        "Hugo entra en el huerto.",
+        "Hugo recoge tres tomates.",
+        "Hugo lava los tomates en la cocina."
+      ]
+    },
+    {
+      "id": "forest-3",
+      "title": "La flecha del mapa",
+      "level": 3,
+      "theme": "forest",
+      "intro": "Mira el título. ¿Cómo puede ayudarte un mapa durante un paseo?",
+      "sentences": [
+        "Ada e Ivo pasean por el bosque con su abuelo.",
+        "En un cruce, Ada abre un mapa.",
+        "—¿Dónde está la fuente? —pregunta Ada.",
+        "Ivo señala una flecha verde en el mapa.",
+        "Los tres siguen el camino marcado con señales verdes.",
+        "Pronto oyen agua detrás de unos arbustos.",
+        "—¡Ya la veo! —dice Ivo.",
+        "Ada llena su botella en la fuente de agua potable porque tiene sed.",
+        "Después, los tres descansan bajo un roble."
+      ],
+      "during": "Haz una pausa. ¿Qué pista les ayuda a elegir el camino?",
+      "questions": [
+        {
+          "prompt": "¿Quién señala la flecha del mapa?",
+          "options": [
+            "El abuelo.",
+            "Ada.",
+            "Ivo."
+          ],
+          "answer": 2,
+          "explanation": "Ivo señala la flecha verde en el mapa."
+        },
+        {
+          "prompt": "¿Qué señales siguen?",
+          "options": [
+            "Las verdes.",
+            "Las rojas.",
+            "Las amarillas."
+          ],
+          "answer": 0,
+          "explanation": "Siguen el camino marcado con señales verdes."
+        },
+        {
+          "prompt": "¿Por qué llena Ada su botella?",
+          "options": [
+            "Porque quiere regar los arbustos.",
+            "Porque tiene sed.",
+            "Porque va a lavar un dibujo."
+          ],
+          "answer": 1,
+          "explanation": "Ada tiene sed y llena la botella en una fuente de agua potable."
+        }
+      ],
+      "events": [
+        "Ada abre el mapa en el cruce.",
+        "Los tres siguen las señales verdes.",
+        "Ada llena su botella en la fuente."
+      ]
+    },
+    {
+      "id": "river-3",
+      "title": "La bufanda del banco",
+      "level": 3,
+      "theme": "river",
+      "intro": "Alguien ha olvidado una bufanda. ¿Cómo podrían encontrar a su dueño?",
+      "sentences": [
+        "Mara camina junto al río con su madre.",
+        "En un banco encuentra una bufanda amarilla.",
+        "—Alguien puede tener frío —dice Mara.",
+        "Su madre la acompaña hasta la caseta de información.",
+        "Allí un niño pregunta por su bufanda perdida.",
+        "—¿De qué color es? —pregunta Mara.",
+        "—Amarilla, con dos estrellas azules —responde el niño.",
+        "Mara mira las dos estrellas de la bufanda y se la devuelve.",
+        "El niño se la pone y le da las gracias."
+      ],
+      "during": "Haz una pausa. ¿Qué detalle podría ayudar a reconocer la bufanda?",
+      "questions": [
+        {
+          "prompt": "¿Quién encuentra la bufanda?",
+          "options": [
+            "La madre de Mara.",
+            "Mara.",
+            "El niño."
+          ],
+          "answer": 1,
+          "explanation": "Mara encuentra la bufanda amarilla en un banco."
+        },
+        {
+          "prompt": "¿Qué dibujo tiene la bufanda?",
+          "options": [
+            "Dos estrellas azules.",
+            "Tres flores rojas.",
+            "Una luna verde."
+          ],
+          "answer": 0,
+          "explanation": "El niño dice que tiene dos estrellas azules y Mara las ve en la bufanda."
+        },
+        {
+          "prompt": "¿Por qué pregunta Mara de qué color es la bufanda?",
+          "options": [
+            "Para escoger un lápiz.",
+            "Para aprender a tejer.",
+            "Para comprobar si es la del niño."
+          ],
+          "answer": 2,
+          "explanation": "La descripción del niño coincide con la bufanda: es amarilla y tiene dos estrellas azules."
+        }
+      ],
+      "events": [
+        "Mara encuentra la bufanda en un banco.",
+        "El niño describe su bufanda.",
+        "Mara devuelve la bufanda."
+      ]
+    },
+    {
+      "id": "garden-3",
+      "title": "Música entre las flores",
+      "level": 3,
+      "theme": "garden",
+      "intro": "Imagina un concierto en un jardín. ¿Qué sonidos podrías escuchar?",
+      "sentences": [
+        "El sábado, Lola prepara un concierto en el jardín.",
+        "Coloca tres sillas junto a las flores.",
+        "Su amigo Dani llega con una guitarra.",
+        "—¿Podemos empezar? —pregunta Dani.",
+        "Lola ve a su hermana pequeña dormida en una manta.",
+        "—Toquemos suave para no despertarla —responde Lola.",
+        "Dani toca la guitarra y Lola canta en voz baja.",
+        "Una mariposa se posa en una flor mientras suena la canción.",
+        "Al terminar, los dos amigos sonríen y guardan la guitarra."
+      ],
+      "during": "Haz una pausa. ¿Por qué tendrán que pensar en el volumen de la música?",
+      "questions": [
+        {
+          "prompt": "¿Quién lleva una guitarra?",
+          "options": [
+            "Dani.",
+            "La hermana de Lola.",
+            "Mara."
+          ],
+          "answer": 0,
+          "explanation": "Dani llega al jardín con una guitarra."
+        },
+        {
+          "prompt": "¿Qué hace Lola mientras Dani toca?",
+          "options": [
+            "Corre por el jardín.",
+            "Canta en voz baja.",
+            "Riega las flores."
+          ],
+          "answer": 1,
+          "explanation": "Dani toca la guitarra y Lola canta en voz baja."
+        },
+        {
+          "prompt": "¿Por qué tocan suave?",
+          "options": [
+            "Porque la guitarra está rota.",
+            "Porque no saben la canción.",
+            "Para no despertar a la hermana de Lola."
+          ],
+          "answer": 2,
+          "explanation": "La hermana pequeña está dormida y Lola propone tocar suave para no despertarla."
+        }
+      ],
+      "events": [
+        "Lola coloca tres sillas.",
+        "Dani y Lola tocan y cantan suave.",
+        "Los amigos guardan la guitarra."
+      ]
+    }
+  ],
+  "words": {
+    "ardilla": {
+      "syllables": "ar-di-lla",
+      "meaning": "Animal pequeño, de cola larga y peluda, que trepa por los árboles."
+    },
+    "nuez": {
+      "syllables": "nuez",
+      "meaning": "Fruto con una cáscara dura y una parte comestible dentro."
+    },
+    "bosque": {
+      "syllables": "bos-que",
+      "meaning": "Lugar donde crecen muchos árboles."
+    },
+    "árbol": {
+      "syllables": "ár-bol",
+      "meaning": "Planta grande con un tronco del que salen ramas."
+    },
+    "guarda": {
+      "syllables": "guar-da",
+      "meaning": "Pone algo en un lugar para conservarlo o usarlo después."
+    },
+    "río": {
+      "syllables": "rí-o",
+      "meaning": "Corriente de agua que recorre la tierra."
+    },
+    "asustarlo": {
+      "syllables": "a-sus-tar-lo",
+      "meaning": "Hacer que alguien sienta miedo."
+    },
+    "silencio": {
+      "syllables": "si-len-cio",
+      "meaning": "Ausencia de ruido."
+    },
+    "tierra": {
+      "syllables": "tie-rra",
+      "meaning": "Material del suelo en el que pueden crecer las plantas."
+    },
+    "seca": {
+      "syllables": "se-ca",
+      "meaning": "Que no tiene agua o humedad."
+    },
+    "maceta": {
+      "syllables": "ma-ce-ta",
+      "meaning": "Recipiente con tierra donde se cultiva una planta."
+    },
+    "riega": {
+      "syllables": "rie-ga",
+      "meaning": "Echa agua a una planta o a la tierra."
+    },
+    "crezca": {
+      "syllables": "crez-ca",
+      "meaning": "Se haga más grande o se desarrolle."
+    },
+    "sendero": {
+      "syllables": "sen-de-ro",
+      "meaning": "Camino estrecho por el campo."
+    },
+    "pluma": {
+      "syllables": "plu-ma",
+      "meaning": "Cada una de las piezas ligeras que cubren el cuerpo de las aves."
+    },
+    "propone": {
+      "syllables": "pro-po-ne",
+      "meaning": "Dice una idea para que alguien la considere o la haga."
+    },
+    "recordar": {
+      "syllables": "re-cor-dar",
+      "meaning": "Traer a la memoria algo que hemos visto, oído o vivido."
+    },
+    "cuaderno": {
+      "syllables": "cua-der-no",
+      "meaning": "Conjunto de hojas unidas para escribir o dibujar."
+    },
+    "cuidado": {
+      "syllables": "cui-da-do",
+      "meaning": "Atención para hacer algo bien o evitar un daño."
+    },
+    "puente": {
+      "syllables": "puen-te",
+      "meaning": "Construcción que permite pasar por encima de un río o de otro obstáculo."
+    },
+    "piedra": {
+      "syllables": "pie-dra",
+      "meaning": "Material natural, duro y sólido que se encuentra en el suelo."
+    },
+    "sombrilla": {
+      "syllables": "som-bri-lla",
+      "meaning": "Objeto parecido a un paraguas que sirve para protegerse del sol."
+    },
+    "sombra": {
+      "syllables": "som-bra",
+      "meaning": "Zona a la que no llega la luz porque algo la tapa."
+    },
+    "huerto": {
+      "syllables": "huer-to",
+      "meaning": "Terreno donde se cultivan verduras y otras plantas para comer."
+    },
+    "cesta": {
+      "syllables": "ces-ta",
+      "meaning": "Recipiente que sirve para llevar o guardar cosas."
+    },
+    "vacía": {
+      "syllables": "va-cí-a",
+      "meaning": "Que no tiene nada dentro."
+    },
+    "maduros": {
+      "syllables": "ma-du-ros",
+      "meaning": "Frutos que ya se han desarrollado y están listos para comer."
+    },
+    "cosecha": {
+      "syllables": "co-se-cha",
+      "meaning": "Conjunto de frutos o verduras que se recogen del campo o del huerto."
+    },
+    "ensalada": {
+      "syllables": "en-sa-la-da",
+      "meaning": "Plato que suele mezclar verduras crudas y otros alimentos."
+    },
+    "cruce": {
+      "syllables": "cru-ce",
+      "meaning": "Lugar donde se encuentran dos o más caminos."
+    },
+    "mapa": {
+      "syllables": "ma-pa",
+      "meaning": "Dibujo que muestra cómo es un lugar y dónde están sus partes."
+    },
+    "fuente": {
+      "syllables": "fuen-te",
+      "meaning": "Lugar del que sale agua; también, construcción preparada para que salga."
+    },
+    "flecha": {
+      "syllables": "fle-cha",
+      "meaning": "Señal con punta que indica una dirección."
+    },
+    "señales": {
+      "syllables": "se-ña-les",
+      "meaning": "Marcas o dibujos que dan información o indican por dónde ir."
+    },
+    "arbustos": {
+      "syllables": "ar-bus-tos",
+      "meaning": "Plantas con ramas duras que suelen ser más bajas que los árboles."
+    },
+    "botella": {
+      "syllables": "bo-te-lla",
+      "meaning": "Recipiente de cuello estrecho que sirve para guardar líquidos."
+    },
+    "potable": {
+      "syllables": "po-ta-ble",
+      "meaning": "Agua que se puede beber."
+    },
+    "roble": {
+      "syllables": "ro-ble",
+      "meaning": "Árbol de tronco fuerte cuyo fruto es la bellota."
+    },
+    "bufanda": {
+      "syllables": "bu-fan-da",
+      "meaning": "Prenda larga que se pone alrededor del cuello para abrigarlo."
+    },
+    "caseta": {
+      "syllables": "ca-se-ta",
+      "meaning": "Construcción pequeña que puede servir para atender a las personas o guardar cosas."
+    },
+    "información": {
+      "syllables": "in-for-ma-ción",
+      "meaning": "Datos o explicaciones que nos ayudan a saber algo."
+    },
+    "perdida": {
+      "syllables": "per-di-da",
+      "meaning": "Que no se sabe dónde está."
+    },
+    "estrellas": {
+      "syllables": "es-tre-llas",
+      "meaning": "Dibujos con varias puntas, como los que aparecen en la bufanda del cuento."
+    },
+    "devuelve": {
+      "syllables": "de-vuel-ve",
+      "meaning": "Entrega algo de nuevo a la persona a la que pertenece."
+    },
+    "concierto": {
+      "syllables": "con-cier-to",
+      "meaning": "Actuación en la que se toca o se canta música para otras personas."
+    },
+    "jardín": {
+      "syllables": "jar-dín",
+      "meaning": "Lugar donde se cuidan plantas y flores."
+    },
+    "guitarra": {
+      "syllables": "gui-ta-rra",
+      "meaning": "Instrumento musical de cuerdas que se tocan con los dedos o con una púa."
+    },
+    "manta": {
+      "syllables": "man-ta",
+      "meaning": "Tejido grande y grueso que sirve para abrigarse."
+    },
+    "suave": {
+      "syllables": "sua-ve",
+      "meaning": "Aquí significa con poco volumen, sin hacer mucho ruido."
+    },
+    "mariposa": {
+      "syllables": "ma-ri-po-sa",
+      "meaning": "Insecto con dos pares de alas que suelen tener colores."
+    },
+    "posa": {
+      "syllables": "po-sa",
+      "meaning": "Se coloca o se queda sobre algo después de volar."
+    },
+    "canción": {
+      "syllables": "can-ción",
+      "meaning": "Composición de palabras y música que se canta."
+    },
+    "a": {
+      "syllables": "a",
+      "meaning": "Indica un destino o a quién llega una acción: «a la cocina» señala adónde lleva Hugo la cosecha."
+    },
+    "abre": {
+      "syllables": "a-bre",
+      "meaning": "Hace que algo deje de estar cerrado o plegado, como un mapa o una sombrilla."
+    },
+    "abuela": {
+      "syllables": "a-bue-la",
+      "meaning": "Madre de la madre o del padre de alguien."
+    },
+    "abuelo": {
+      "syllables": "a-bue-lo",
+      "meaning": "Padre de la madre o del padre de alguien."
+    },
+    "acompaña": {
+      "syllables": "a-com-pa-ña",
+      "meaning": "Va con otra persona para estar a su lado."
+    },
+    "ada": {
+      "syllables": "a-da",
+      "meaning": "Nombre de la niña que busca la fuente con Ivo y su abuelo."
+    },
+    "agua": {
+      "syllables": "a-gua",
+      "meaning": "Líquido que bebemos y que las plantas necesitan para vivir."
+    },
+    "al": {
+      "syllables": "al",
+      "meaning": "Une «a» y «el». Puede señalar un destino, como «al río», o un momento, como «al terminar»."
+    },
+    "alguien": {
+      "syllables": "al-guien",
+      "meaning": "Una persona cuyo nombre no se dice o no se conoce."
+    },
+    "allí": {
+      "syllables": "a-llí",
+      "meaning": "En ese lugar; por ejemplo, en la cocina o en la caseta de información."
+    },
+    "amarilla": {
+      "syllables": "a-ma-ri-lla",
+      "meaning": "Del color de un limón maduro."
+    },
+    "amigo": {
+      "syllables": "a-mi-go",
+      "meaning": "Persona a la que queremos y con la que nos gusta compartir tiempo."
+    },
+    "amigos": {
+      "syllables": "a-mi-gos",
+      "meaning": "Personas que se quieren y disfrutan de pasar tiempo juntas."
+    },
+    "antes": {
+      "syllables": "an-tes",
+      "meaning": "En un momento anterior a otro."
+    },
+    "azul": {
+      "syllables": "a-zul",
+      "meaning": "Del color que suele tener el cielo cuando está despejado."
+    },
+    "azules": {
+      "syllables": "a-zu-les",
+      "meaning": "De color azul; en el cuento describe las dos estrellas de la bufanda."
+    },
+    "baja": {
+      "syllables": "ba-ja",
+      "meaning": "En «voz baja», indica que se habla o se canta con poco volumen."
+    },
+    "bajo": {
+      "syllables": "ba-jo",
+      "meaning": "Debajo de algo; «bajo un roble» significa debajo de ese árbol."
+    },
+    "banco": {
+      "syllables": "ban-co",
+      "meaning": "Asiento alargado en el que pueden sentarse varias personas."
+    },
+    "bruno": {
+      "syllables": "bru-no",
+      "meaning": "Nombre del niño que encuentra y dibuja una pluma."
+    },
+    "busca": {
+      "syllables": "bus-ca",
+      "meaning": "Intenta encontrar algo que necesita o quiere."
+    },
+    "camina": {
+      "syllables": "ca-mi-na",
+      "meaning": "Se mueve de un lugar a otro dando pasos."
+    },
+    "camino": {
+      "syllables": "ca-mi-no",
+      "meaning": "Lugar por el que se puede ir de un sitio a otro."
+    },
+    "canta": {
+      "syllables": "can-ta",
+      "meaning": "Hace música con la voz."
+    },
+    "cocina": {
+      "syllables": "co-ci-na",
+      "meaning": "Lugar de la casa donde se prepara la comida."
+    },
+    "coloca": {
+      "syllables": "co-lo-ca",
+      "meaning": "Pone algo en un lugar elegido."
+    },
+    "color": {
+      "syllables": "co-lor",
+      "meaning": "Cualidad que vemos en las cosas, como el azul, el rojo o el amarillo."
+    },
+    "colores": {
+      "syllables": "co-lo-res",
+      "meaning": "Distintas cualidades que vemos en las cosas, como el azul, el rojo y el amarillo."
+    },
+    "comer": {
+      "syllables": "co-mer",
+      "meaning": "Tomar alimentos para nutrirnos."
+    },
+    "con": {
+      "syllables": "con",
+      "meaning": "Indica compañía o algo que se lleva: «con su abuela» significa en compañía de ella."
+    },
+    "da": {
+      "syllables": "da",
+      "meaning": "Entrega u ofrece algo a alguien; «da las gracias» significa que agradece una ayuda."
+    },
+    "dani": {
+      "syllables": "da-ni",
+      "meaning": "Nombre del amigo de Lola que toca la guitarra."
+    },
+    "darle": {
+      "syllables": "dar-le",
+      "meaning": "Dar algo a alguien; «darle sombra» significa hacer que esa persona quede protegida del sol."
+    },
+    "de": {
+      "syllables": "de",
+      "meaning": "Relaciona palabras: «de piedra» explica de qué está hecho el puente."
+    },
+    "deja": {
+      "syllables": "de-ja",
+      "meaning": "Pone algo en un lugar y permite que se quede allí."
+    },
+    "descansan": {
+      "syllables": "des-can-san",
+      "meaning": "Paran una actividad para recuperar fuerzas."
+    },
+    "desde": {
+      "syllables": "des-de",
+      "meaning": "Indica el lugar donde empieza algo o desde donde se mira; Inés mira desde el banco."
+    },
+    "despertarla": {
+      "syllables": "des-per-tar-la",
+      "meaning": "Hacer que ella deje de dormir; aquí se refiere a la hermana de Lola."
+    },
+    "después": {
+      "syllables": "des-pués",
+      "meaning": "En un momento posterior; más tarde."
+    },
+    "detrás": {
+      "syllables": "de-trás",
+      "meaning": "En la parte de atrás de algo."
+    },
+    "dibuja": {
+      "syllables": "di-bu-ja",
+      "meaning": "Representa algo con líneas y formas sobre una superficie, como el papel."
+    },
+    "dibujarla": {
+      "syllables": "di-bu-jar-la",
+      "meaning": "Hacer un dibujo de ella; en este cuento, hacer un dibujo de la pluma."
+    },
+    "dibujarlo": {
+      "syllables": "di-bu-jar-lo",
+      "meaning": "Hacer un dibujo de él; en este cuento, hacer un dibujo del puente."
+    },
+    "dibujo": {
+      "syllables": "di-bu-jo",
+      "meaning": "Imagen hecha con líneas y formas."
+    },
+    "dice": {
+      "syllables": "di-ce",
+      "meaning": "Expresa algo con palabras."
+    },
+    "dónde": {
+      "syllables": "dón-de",
+      "meaning": "Palabra que sirve para preguntar en qué lugar está algo o alguien."
+    },
+    "dormida": {
+      "syllables": "dor-mi-da",
+      "meaning": "Que está durmiendo."
+    },
+    "dos": {
+      "syllables": "dos",
+      "meaning": "Número que viene después del uno y antes del tres."
+    },
+    "e": {
+      "syllables": "e",
+      "meaning": "Une palabras como lo hace «y»; usamos «e» delante de «Ivo» porque comienza con el sonido i."
+    },
+    "el": {
+      "syllables": "el",
+      "meaning": "Acompaña un nombre masculino singular, como «el río» o «el niño»."
+    },
+    "empezar": {
+      "syllables": "em-pe-zar",
+      "meaning": "Dar comienzo a una actividad."
+    },
+    "en": {
+      "syllables": "en",
+      "meaning": "Indica dónde está algo o dónde ocurre una acción: «en el jardín»."
+    },
+    "encuentra": {
+      "syllables": "en-cuen-tra",
+      "meaning": "Ve o descubre algo que estaba en un lugar."
+    },
+    "enseña": {
+      "syllables": "en-se-ña",
+      "meaning": "Aquí significa que muestra algo para que otra persona pueda verlo."
+    },
+    "entra": {
+      "syllables": "en-tra",
+      "meaning": "Pasa de fuera a dentro de un lugar."
+    },
+    "es": {
+      "syllables": "es",
+      "meaning": "Sirve para decir cómo es alguien o algo: «¿De qué color es?»."
+    },
+    "está": {
+      "syllables": "es-tá",
+      "meaning": "Sirve para indicar un lugar o un estado: «¿Dónde está la fuente?»."
+    },
+    "flor": {
+      "syllables": "flor",
+      "meaning": "Parte de muchas plantas donde se forman las semillas, que a menudo tiene pétalos de colores."
+    },
+    "flores": {
+      "syllables": "flo-res",
+      "meaning": "Partes de muchas plantas que a menudo tienen pétalos de colores."
+    },
+    "frío": {
+      "syllables": "frí-o",
+      "meaning": "Sensación que tenemos cuando nos falta calor."
+    },
+    "gracias": {
+      "syllables": "gra-cias",
+      "meaning": "Palabra que usamos para agradecer lo que alguien hace por nosotros."
+    },
+    "guardan": {
+      "syllables": "guar-dan",
+      "meaning": "Ponen algo en un lugar para conservarlo o volver a usarlo."
+    },
+    "hasta": {
+      "syllables": "has-ta",
+      "meaning": "Señala el lugar al que se llega: «hasta la caseta»."
+    },
+    "hermana": {
+      "syllables": "her-ma-na",
+      "meaning": "Niña o mujer que tiene la misma madre o el mismo padre que otra persona."
+    },
+    "hugo": {
+      "syllables": "hu-go",
+      "meaning": "Nombre del niño que recoge tres tomates en el huerto."
+    },
+    "inés": {
+      "syllables": "i-nés",
+      "meaning": "Nombre de la niña que dibuja un puente junto al río."
+    },
+    "ivo": {
+      "syllables": "i-vo",
+      "meaning": "Nombre del niño que señala la flecha verde en el mapa."
+    },
+    "junto": {
+      "syllables": "jun-to",
+      "meaning": "En «junto a», significa al lado de algo o muy cerca."
+    },
+    "la": {
+      "syllables": "la",
+      "meaning": "Acompaña un nombre como «la planta»; en «la devuelve», se refiere a la bufanda."
+    },
+    "lápices": {
+      "syllables": "lá-pi-ces",
+      "meaning": "Objetos que sirven para escribir, dibujar o colorear."
+    },
+    "las": {
+      "syllables": "las",
+      "meaning": "Acompaña nombres femeninos de varias cosas, como «las flores» o «las señales»."
+    },
+    "lava": {
+      "syllables": "la-va",
+      "meaning": "Limpia algo con agua."
+    },
+    "le": {
+      "syllables": "le",
+      "meaning": "Se refiere a la persona que recibe una acción; «le muestra» significa que muestra algo a esa persona."
+    },
+    "lejos": {
+      "syllables": "le-jos",
+      "meaning": "A mucha distancia de algo o de alguien."
+    },
+    "leo": {
+      "syllables": "le-o",
+      "meaning": "Nombre del niño que observa a un pato sin hacer ruido."
+    },
+    "lía": {
+      "syllables": "lí-a",
+      "meaning": "Nombre de la niña que ve una ardilla con una nuez."
+    },
+    "llega": {
+      "syllables": "lle-ga",
+      "meaning": "Alcanza el lugar al que iba."
+    },
+    "llena": {
+      "syllables": "lle-na",
+      "meaning": "Hace que un recipiente tenga más contenido; Ada pone agua en su botella."
+    },
+    "lleva": {
+      "syllables": "lle-va",
+      "meaning": "Transporta algo de un lugar a otro o lo tiene consigo."
+    },
+    "lo": {
+      "syllables": "lo",
+      "meaning": "En «se lo enseña», se refiere al dibujo que Inés muestra a su padre."
+    },
+    "lola": {
+      "syllables": "lo-la",
+      "meaning": "Nombre de la niña que organiza un concierto en el jardín."
+    },
+    "los": {
+      "syllables": "los",
+      "meaning": "Acompaña nombres masculinos de varias cosas; en «los lava», se refiere a los tomates."
+    },
+    "madre": {
+      "syllables": "ma-dre",
+      "meaning": "Mamá de una persona."
+    },
+    "mañana": {
+      "syllables": "ma-ña-na",
+      "meaning": "Aquí significa la parte del día que va desde que amanece hasta el mediodía."
+    },
+    "mara": {
+      "syllables": "ma-ra",
+      "meaning": "Nombre de la niña que encuentra una bufanda y la devuelve."
+    },
+    "marcado": {
+      "syllables": "mar-ca-do",
+      "meaning": "Que tiene marcas o señales para poder reconocerlo."
+    },
+    "más": {
+      "syllables": "más",
+      "meaning": "En «más tarde», ayuda a indicar que algo sucederá después."
+    },
+    "mientras": {
+      "syllables": "mien-tras",
+      "meaning": "Indica que dos cosas ocurren al mismo tiempo."
+    },
+    "mira": {
+      "syllables": "mi-ra",
+      "meaning": "Dirige los ojos hacia algo para verlo con atención."
+    },
+    "molesta": {
+      "syllables": "mo-les-ta",
+      "meaning": "Causa incomodidad; el sol hace que a Inés le cueste mirar."
+    },
+    "muestra": {
+      "syllables": "mues-tra",
+      "meaning": "Hace que otra persona pueda ver algo."
+    },
+    "niño": {
+      "syllables": "ni-ño",
+      "meaning": "Persona de corta edad que todavía no es adulta."
+    },
+    "no": {
+      "syllables": "no",
+      "meaning": "Palabra que sirve para negar algo; «no despertarla» significa dejar que siga durmiendo."
+    },
+    "nora": {
+      "syllables": "no-ra",
+      "meaning": "Nombre de la niña que riega una planta."
+    },
+    "ojos": {
+      "syllables": "o-jos",
+      "meaning": "Partes del cuerpo con las que vemos."
+    },
+    "oyen": {
+      "syllables": "o-yen",
+      "meaning": "Perciben un sonido con los oídos."
+    },
+    "padre": {
+      "syllables": "pa-dre",
+      "meaning": "Papá de una persona."
+    },
+    "para": {
+      "syllables": "pa-ra",
+      "meaning": "Explica el fin de una acción: «para comer» dice para qué guarda la ardilla la nuez."
+    },
+    "pasea": {
+      "syllables": "pa-se-a",
+      "meaning": "Camina para disfrutar del recorrido."
+    },
+    "pasean": {
+      "syllables": "pa-se-an",
+      "meaning": "Caminan para disfrutar del recorrido."
+    },
+    "paseo": {
+      "syllables": "pa-se-o",
+      "meaning": "Recorrido que se hace para disfrutar o descansar."
+    },
+    "pato": {
+      "syllables": "pa-to",
+      "meaning": "Ave que tiene pico ancho y patas que le ayudan a nadar."
+    },
+    "pequeña": {
+      "syllables": "pe-que-ña",
+      "meaning": "De poco tamaño o poca edad; aquí describe a la hermana de Lola."
+    },
+    "pero": {
+      "syllables": "pe-ro",
+      "meaning": "Une dos ideas que contrastan: Inés quiere dibujar, pero el sol le molesta."
+    },
+    "planta": {
+      "syllables": "plan-ta",
+      "meaning": "Ser vivo, como una flor o un árbol, que suele crecer sujeto a la tierra por raíces."
+    },
+    "podemos": {
+      "syllables": "po-de-mos",
+      "meaning": "Expresa que tenemos la posibilidad o el permiso de hacer algo."
+    },
+    "pone": {
+      "syllables": "po-ne",
+      "meaning": "Coloca algo en un lugar; «se la pone» significa que se viste con esa prenda."
+    },
+    "por": {
+      "syllables": "por",
+      "meaning": "En «por el bosque», indica el lugar del paseo; «pregunta por» indica lo que alguien busca o quiere saber."
+    },
+    "porque": {
+      "syllables": "por-que",
+      "meaning": "Introduce el motivo de algo: Ada llena la botella porque tiene sed."
+    },
+    "pregunta": {
+      "syllables": "pre-gun-ta",
+      "meaning": "Dice algo para que otra persona le dé una respuesta."
+    },
+    "prepara": {
+      "syllables": "pre-pa-ra",
+      "meaning": "Deja listo lo necesario para hacer algo."
+    },
+    "preparar": {
+      "syllables": "pre-pa-rar",
+      "meaning": "Hacer lo necesario para que algo esté listo."
+    },
+    "pronto": {
+      "syllables": "pron-to",
+      "meaning": "Al poco tiempo; sin que pase mucho rato."
+    },
+    "puede": {
+      "syllables": "pue-de",
+      "meaning": "Expresa una posibilidad; «puede tener frío» significa que quizá tenga frío."
+    },
+    "que": {
+      "syllables": "que",
+      "meaning": "Une partes de una frase; «para que crezca» explica lo que Nora quiere conseguir al regar."
+    },
+    "qué": {
+      "syllables": "qué",
+      "meaning": "Sirve para preguntar por algo; «¿De qué color es?» pide saber el color."
+    },
+    "quiere": {
+      "syllables": "quie-re",
+      "meaning": "Tiene ganas o intención de hacer algo."
+    },
+    "quitarles": {
+      "syllables": "qui-tar-les",
+      "meaning": "Retirar algo de ellos; aquí, retirar la tierra de los tomates."
+    },
+    "recoge": {
+      "syllables": "re-co-ge",
+      "meaning": "Toma algo del lugar donde está; Hugo toma los tomates maduros de las plantas."
+    },
+    "responde": {
+      "syllables": "res-pon-de",
+      "meaning": "Contesta a lo que alguien ha preguntado o dicho."
+    },
+    "rojos": {
+      "syllables": "ro-jos",
+      "meaning": "Del color que tienen muchos tomates cuando están maduros."
+    },
+    "sábado": {
+      "syllables": "sá-ba-do",
+      "meaning": "Día de la semana que va después del viernes y antes del domingo."
+    },
+    "saca": {
+      "syllables": "sa-ca",
+      "meaning": "Pasa algo de dentro de un lugar a fuera."
+    },
+    "se": {
+      "syllables": "se",
+      "meaning": "Acompaña verbos como «se sienta»; ayuda a expresar lo que le sucede o hace el personaje."
+    },
+    "sed": {
+      "syllables": "sed",
+      "meaning": "Necesidad o ganas de beber."
+    },
+    "señala": {
+      "syllables": "se-ña-la",
+      "meaning": "Indica dónde está algo, por ejemplo con el dedo."
+    },
+    "sienta": {
+      "syllables": "sien-ta",
+      "meaning": "En «se sienta», significa que coloca su cuerpo apoyado sobre un asiento o el suelo."
+    },
+    "sigue": {
+      "syllables": "si-gue",
+      "meaning": "Continúa una actividad; «sigue el paseo» significa que continúa paseando."
+    },
+    "siguen": {
+      "syllables": "si-guen",
+      "meaning": "Avanzan por el recorrido que indica un camino o unas señales."
+    },
+    "sillas": {
+      "syllables": "si-llas",
+      "meaning": "Asientos para una persona que suelen tener respaldo."
+    },
+    "sin": {
+      "syllables": "sin",
+      "meaning": "Indica que falta algo o que no se hace algo: «sin asustarlo» significa que no le causa miedo."
+    },
+    "sol": {
+      "syllables": "sol",
+      "meaning": "Estrella que ilumina y calienta la Tierra."
+    },
+    "sonríen": {
+      "syllables": "son-rí-en",
+      "meaning": "Muestran alegría o afecto curvando suavemente los labios."
+    },
+    "su": {
+      "syllables": "su",
+      "meaning": "Indica relación o pertenencia: «su abuela» es la abuela de Bruno."
+    },
+    "sube": {
+      "syllables": "su-be",
+      "meaning": "Va desde un lugar más bajo a otro más alto."
+    },
+    "suelo": {
+      "syllables": "sue-lo",
+      "meaning": "Superficie sobre la que caminamos y apoyamos las cosas."
+    },
+    "suena": {
+      "syllables": "sue-na",
+      "meaning": "Produce un sonido que se puede oír."
+    },
+    "sus": {
+      "syllables": "sus",
+      "meaning": "Indica relación o pertenencia con varias cosas: «sus lápices» son los lápices de Inés."
+    },
+    "tarde": {
+      "syllables": "tar-de",
+      "meaning": "En «más tarde», significa después, en otro momento."
+    },
+    "tener": {
+      "syllables": "te-ner",
+      "meaning": "Poseer algo o sentir un estado; «tener frío» significa sentir que falta calor."
+    },
+    "termina": {
+      "syllables": "ter-mi-na",
+      "meaning": "Llega al final de una actividad; acaba lo que está haciendo."
+    },
+    "terminar": {
+      "syllables": "ter-mi-nar",
+      "meaning": "Llegar al final de una actividad."
+    },
+    "tiene": {
+      "syllables": "tie-ne",
+      "meaning": "Posee algo o siente un estado; «tiene sed» significa que necesita o desea beber."
+    },
+    "toca": {
+      "syllables": "to-ca",
+      "meaning": "Puede significar poner la mano sobre algo, como la tierra, o hacer sonar un instrumento, como la guitarra."
+    },
+    "tomates": {
+      "syllables": "to-ma-tes",
+      "meaning": "Frutos carnosos que se usan como alimento y suelen ponerse rojos al madurar."
+    },
+    "toquemos": {
+      "syllables": "to-que-mos",
+      "meaning": "Propuesta para hacer sonar un instrumento entre varias personas: «toquemos suave»."
+    },
+    "tres": {
+      "syllables": "tres",
+      "meaning": "Número que viene después del dos y antes del cuatro."
+    },
+    "un": {
+      "syllables": "un",
+      "meaning": "Acompaña un nombre masculino singular, como «un pato»."
+    },
+    "una": {
+      "syllables": "u-na",
+      "meaning": "Acompaña un nombre femenino singular, como «una pluma»."
+    },
+    "unos": {
+      "syllables": "u-nos",
+      "meaning": "Indica varios elementos sin decir cuántos: «unos arbustos»."
+    },
+    "ve": {
+      "syllables": "ve",
+      "meaning": "Percibe algo con los ojos."
+    },
+    "veo": {
+      "syllables": "ve-o",
+      "meaning": "Forma de «ver» que usa quien habla para decir que distingue algo con los ojos."
+    },
+    "verde": {
+      "syllables": "ver-de",
+      "meaning": "Del color que tienen muchas hojas."
+    },
+    "verdes": {
+      "syllables": "ver-des",
+      "meaning": "De color verde; en el cuento describe las señales del camino."
+    },
+    "verlo": {
+      "syllables": "ver-lo",
+      "meaning": "Mirarlo o percibirlo con los ojos; aquí se refiere al pato."
+    },
+    "voz": {
+      "syllables": "voz",
+      "meaning": "Sonido que producimos al hablar o cantar."
+    },
+    "y": {
+      "syllables": "y",
+      "meaning": "Une palabras o ideas: «canta y toca» reúne dos acciones."
+    },
+    "ya": {
+      "syllables": "ya",
+      "meaning": "Indica que algo sucede en ese momento: «ya la veo» significa que ahora puede verla."
+    },
+    "tranquilo": {
+      "syllables": "tran-qui-lo",
+      "meaning": "Que está en calma, sin miedo ni agitación."
+    },
+    "música": {
+      "syllables": "mú-si-ca",
+      "meaning": "Arte de combinar sonidos y silencios; se puede crear con la voz o con instrumentos."
+    },
+    "entre": {
+      "syllables": "en-tre",
+      "meaning": "Indica que algo está en medio de varias cosas, como «entre las flores»."
+    },
+    "del": {
+      "syllables": "del",
+      "meaning": "Une «de» y «el»; en «el dibujo del puente», relaciona el dibujo con el puente."
+    }
+  },
+  "phraseActivities": [
+    {
+      "id": "order-1",
+      "title": "Un salto entre las ramas",
+      "prompt": "Ordena todas las palabras para contar lo que hace la ardilla.",
+      "hint": "La palabra «la» acompaña a «ardilla».",
+      "explanation": "La frase cuenta que la ardilla salta. También podemos decir «Salta la ardilla».",
+      "tokens": [
+        "salta",
+        "ardilla",
+        "la"
+      ],
+      "solutions": [
+        [
+          "la",
+          "ardilla",
+          "salta"
+        ],
+        [
+          "salta",
+          "la",
+          "ardilla"
+        ]
+      ],
+      "type": "order"
+    },
+    {
+      "id": "order-2",
+      "title": "Un paseo por el agua",
+      "prompt": "Ordena todas las palabras para contar lo que hace el pato.",
+      "hint": "«El pato» nombra al animal.",
+      "explanation": "«El pato nada» y «Nada el pato» son frases que tienen sentido.",
+      "tokens": [
+        "nada",
+        "el",
+        "pato"
+      ],
+      "solutions": [
+        [
+          "el",
+          "pato",
+          "nada"
+        ],
+        [
+          "nada",
+          "el",
+          "pato"
+        ]
+      ],
+      "type": "order"
+    },
+    {
+      "id": "order-3",
+      "title": "Cuidamos una planta",
+      "prompt": "Ordena todas las palabras para contar qué riega Nora.",
+      "hint": "Pon juntas «la» y «planta».",
+      "explanation": "Nora riega la planta. El nombre «Nora» también puede ir después del verbo o al final.",
+      "tokens": [
+        "planta",
+        "riega",
+        "Nora",
+        "la"
+      ],
+      "solutions": [
+        [
+          "Nora",
+          "riega",
+          "la",
+          "planta"
+        ],
+        [
+          "riega",
+          "Nora",
+          "la",
+          "planta"
+        ],
+        [
+          "riega",
+          "la",
+          "planta",
+          "Nora"
+        ]
+      ],
+      "type": "order"
+    },
+    {
+      "id": "order-4",
+      "title": "Un dibujo azul",
+      "prompt": "Ordena todas las palabras para contar qué dibuja Bruno.",
+      "hint": "La palabra «una» acompaña a «pluma».",
+      "explanation": "Bruno dibuja una pluma. También se puede comenzar por «Dibuja».",
+      "tokens": [
+        "una",
+        "Bruno",
+        "pluma",
+        "dibuja"
+      ],
+      "solutions": [
+        [
+          "Bruno",
+          "dibuja",
+          "una",
+          "pluma"
+        ],
+        [
+          "dibuja",
+          "Bruno",
+          "una",
+          "pluma"
+        ],
+        [
+          "dibuja",
+          "una",
+          "pluma",
+          "Bruno"
+        ]
+      ],
+      "type": "order"
+    },
+    {
+      "id": "order-5",
+      "title": "El jardín crece",
+      "prompt": "Ordena todas las palabras para contar qué ocurre con las flores.",
+      "hint": "«Las flores» nombra lo que crece.",
+      "explanation": "«Las flores crecen» y «Crecen las flores» expresan la misma idea.",
+      "tokens": [
+        "crecen",
+        "flores",
+        "las"
+      ],
+      "solutions": [
+        [
+          "las",
+          "flores",
+          "crecen"
+        ],
+        [
+          "crecen",
+          "las",
+          "flores"
+        ]
+      ],
+      "type": "order"
+    },
+    {
+      "id": "order-6",
+      "title": "La bufanda del banco",
+      "prompt": "Ordena todas las palabras para contar qué recoge Mara.",
+      "hint": "Pon juntas «la» y «bufanda».",
+      "explanation": "Mara recoge la bufanda. Podemos cambiar el lugar de «Mara» y mantener el sentido.",
+      "tokens": [
+        "bufanda",
+        "Mara",
+        "la",
+        "recoge"
+      ],
+      "solutions": [
+        [
+          "Mara",
+          "recoge",
+          "la",
+          "bufanda"
+        ],
+        [
+          "recoge",
+          "Mara",
+          "la",
+          "bufanda"
+        ],
+        [
+          "recoge",
+          "la",
+          "bufanda",
+          "Mara"
+        ]
+      ],
+      "type": "order"
+    },
+    {
+      "id": "order-7",
+      "title": "Vamos al huerto",
+      "prompt": "Ordena todas las palabras para contar qué lleva Hugo.",
+      "hint": "«Una cesta» es lo que lleva.",
+      "explanation": "Hugo lleva una cesta. El nombre «Hugo» puede aparecer en distintas posiciones.",
+      "tokens": [
+        "cesta",
+        "lleva",
+        "una",
+        "Hugo"
+      ],
+      "solutions": [
+        [
+          "Hugo",
+          "lleva",
+          "una",
+          "cesta"
+        ],
+        [
+          "lleva",
+          "Hugo",
+          "una",
+          "cesta"
+        ],
+        [
+          "lleva",
+          "una",
+          "cesta",
+          "Hugo"
+        ]
+      ],
+      "type": "order"
+    },
+    {
+      "id": "order-8",
+      "title": "Escucha el río",
+      "prompt": "Ordena todas las palabras para contar que hoy se oye el río.",
+      "hint": "Mantén juntas «el» y «río»; «hoy» puede ir en varios lugares.",
+      "explanation": "«Hoy suena el río» y «El río suena hoy» son dos formas de contar lo mismo.",
+      "tokens": [
+        "hoy",
+        "río",
+        "suena",
+        "el"
+      ],
+      "solutions": [
+        [
+          "el",
+          "río",
+          "suena",
+          "hoy"
+        ],
+        [
+          "hoy",
+          "el",
+          "río",
+          "suena"
+        ],
+        [
+          "hoy",
+          "suena",
+          "el",
+          "río"
+        ],
+        [
+          "suena",
+          "el",
+          "río",
+          "hoy"
+        ],
+        [
+          "suena",
+          "hoy",
+          "el",
+          "río"
+        ],
+        [
+          "el",
+          "río",
+          "hoy",
+          "suena"
+        ]
+      ],
+      "type": "order"
+    },
+    {
+      "id": "complete-1",
+      "title": "Agua para crecer",
+      "prompt": "Elige la palabra que completa la idea.",
+      "sentence": "La tierra está seca; Nora ___ la planta para ayudarla a crecer.",
+      "options": [
+        "dibuja",
+        "riega",
+        "esconde"
+      ],
+      "answer": 1,
+      "hint": "Piensa en lo que necesita la tierra seca.",
+      "explanation": "«Riega» significa que le echa agua a la planta.",
+      "type": "complete"
+    },
+    {
+      "id": "complete-2",
+      "title": "Un sonido pequeño",
+      "prompt": "Elige la palabra que mantiene el sentido de la frase.",
+      "sentence": "La hermana de Lola duerme; por eso cantan en voz ___.",
+      "options": [
+        "baja",
+        "alta",
+        "rápida"
+      ],
+      "answer": 0,
+      "hint": "Quieren que la niña siga durmiendo.",
+      "explanation": "Cantan en voz baja para hacer poco ruido.",
+      "type": "complete"
+    },
+    {
+      "id": "complete-3",
+      "title": "La cesta cambia",
+      "prompt": "Elige la palabra que completa la frase.",
+      "sentence": "Hugo todavía no ha recogido nada; su cesta está ___.",
+      "options": [
+        "llena",
+        "madura",
+        "vacía"
+      ],
+      "answer": 2,
+      "hint": "Dentro de la cesta no hay nada.",
+      "explanation": "«Vacía» significa que no tiene nada dentro.",
+      "type": "complete"
+    },
+    {
+      "id": "complete-4",
+      "title": "Un mapa útil",
+      "prompt": "Elige la palabra que encaja con lo que hacen.",
+      "sentence": "Para encontrar la fuente, Ada consulta un ___.",
+      "options": [
+        "tomate",
+        "mapa",
+        "zapato"
+      ],
+      "answer": 1,
+      "hint": "Este dibujo muestra lugares y caminos.",
+      "explanation": "Un mapa ayuda a saber dónde están los lugares.",
+      "type": "complete"
+    },
+    {
+      "id": "complete-5",
+      "title": "Muchas flores",
+      "prompt": "Elige la forma del verbo que concuerda con «las flores».",
+      "sentence": "Las flores ___ en el jardín.",
+      "options": [
+        "crecen",
+        "crece",
+        "crezco"
+      ],
+      "answer": 0,
+      "hint": "Hablamos de más de una flor.",
+      "explanation": "Decimos «la flor crece», pero «las flores crecen».",
+      "type": "complete"
+    },
+    {
+      "id": "complete-6",
+      "title": "Una sola nuez",
+      "prompt": "Elige la palabra que concuerda con «nuez».",
+      "sentence": "La ardilla guarda una nuez ___.",
+      "options": [
+        "pequeños",
+        "pequeñas",
+        "pequeña"
+      ],
+      "answer": 2,
+      "hint": "Es una sola nuez: «una nuez…».",
+      "explanation": "«Nuez» es femenino y singular; por eso decimos «pequeña».",
+      "type": "complete"
+    },
+    {
+      "id": "complete-7",
+      "title": "Primero y después",
+      "prompt": "Elige la palabra que marca lo que pasa más tarde.",
+      "sentence": "Primero Bruno encuentra la pluma; ___ la dibuja.",
+      "options": [
+        "antes",
+        "después",
+        "nunca"
+      ],
+      "answer": 1,
+      "hint": "El dibujo ocurre tras el hallazgo.",
+      "explanation": "«Después» indica que dibuja la pluma tras encontrarla.",
+      "type": "complete"
+    },
+    {
+      "id": "complete-8",
+      "title": "Leer las señales",
+      "prompt": "Elige la palabra que explica el motivo.",
+      "sentence": "Ada bebe agua ___ tiene sed.",
+      "options": [
+        "porque",
+        "aunque",
+        "pero"
+      ],
+      "answer": 0,
+      "hint": "Buscamos una palabra que explique por qué bebe.",
+      "explanation": "«Porque» introduce el motivo: Ada tiene sed.",
+      "type": "complete"
+    },
+    {
+      "id": "intonation-1",
+      "title": "Una pregunta",
+      "prompt": "Lee en voz alta y elige cómo debe sonar.",
+      "sentence": "¿Vienes al jardín?",
+      "options": [
+        "Como una pregunta que espera respuesta.",
+        "Como una orden enfadada.",
+        "Como el final de una lista."
+      ],
+      "answer": 0,
+      "hint": "Fíjate en los signos ¿ ?.",
+      "explanation": "Los signos de interrogación indican que estamos haciendo una pregunta.",
+      "type": "intonation"
+    },
+    {
+      "id": "intonation-2",
+      "title": "¡Qué sorpresa!",
+      "prompt": "Lola está sorprendida. Elige cómo leer sus palabras.",
+      "sentence": "¡Qué mariposa tan grande!",
+      "options": [
+        "Con voz monótona y sin expresión.",
+        "Con sorpresa en la voz.",
+        "Como una pregunta que espera un sí o un no."
+      ],
+      "answer": 1,
+      "hint": "Los signos ¡ ! ayudan a expresar emoción.",
+      "explanation": "La exclamación y la situación indican sorpresa; no hace falta gritar.",
+      "type": "intonation"
+    },
+    {
+      "id": "intonation-3",
+      "title": "Una pausa pequeña",
+      "prompt": "¿Dónde harías una pausa breve al leer esta frase?",
+      "sentence": "Ada, Ivo y su abuelo pasean.",
+      "options": [
+        "Entre «su» y «abuelo».",
+        "Después de cada palabra.",
+        "Después de «Ada», donde hay una coma."
+      ],
+      "answer": 2,
+      "hint": "Busca la coma.",
+      "explanation": "La coma separa elementos de una enumeración y señala una pausa breve.",
+      "type": "intonation"
+    },
+    {
+      "id": "intonation-4",
+      "title": "Dos voces",
+      "prompt": "Lee este pequeño diálogo. ¿Cómo puedes distinguir las intervenciones?",
+      "sentence": "—¿Dónde está la fuente? —Junto al roble.",
+      "options": [
+        "Leyéndolo todo como una sola pregunta.",
+        "Haciendo una pregunta y después una respuesta.",
+        "Gritando todas las palabras."
+      ],
+      "answer": 1,
+      "hint": "Una persona pregunta; la otra le indica el lugar.",
+      "explanation": "La primera intervención pregunta dónde está la fuente y la segunda responde.",
+      "type": "intonation"
+    },
+    {
+      "id": "sound-1",
+      "title": "Gato y guitarra",
+      "prompt": "Di «gato» despacio. ¿Qué palabra empieza con el mismo sonido?",
+      "sentence": "gato → ___",
+      "options": [
+        "jirafa",
+        "jabón",
+        "guitarra"
+      ],
+      "answer": 2,
+      "hint": "Compara el principio de «ga-to» con «gui-ta-rra».",
+      "explanation": "«Gato» y «guitarra» empiezan con el mismo sonido. En «guitarra», la u de «gui» no suena.",
+      "type": "sound"
+    },
+    {
+      "id": "sound-2",
+      "title": "Las letras de queso",
+      "prompt": "¿Qué dos letras representan juntas el primer sonido de «queso»?",
+      "sentence": "queso",
+      "options": [
+        "qu",
+        "ch",
+        "rr"
+      ],
+      "answer": 0,
+      "hint": "Mira las dos primeras letras; aquí la u no se pronuncia.",
+      "explanation": "En «queso», «qu» representa el sonido de la c de «casa»; la u no se pronuncia.",
+      "type": "sound"
+    },
+    {
+      "id": "sound-3",
+      "title": "Una erre que vibra",
+      "prompt": "Lee «carro». ¿Cómo suena «rr» en esta palabra?",
+      "sentence": "carro",
+      "options": [
+        "Como la r suave de «pera».",
+        "Como la erre fuerte de «perro».",
+        "Como la s de «sopa»."
+      ],
+      "answer": 1,
+      "hint": "Compara «caro» y «carro» al decirlas despacio.",
+      "explanation": "Entre vocales, «rr» representa una erre fuerte, como en «perro» y «carro».",
+      "type": "sound"
+    },
+    {
+      "id": "sound-4",
+      "title": "El comienzo de chocolate",
+      "prompt": "¿Qué palabra empieza con el mismo sonido que «chocolate»?",
+      "sentence": "chocolate → ___",
+      "options": [
+        "casa",
+        "sopa",
+        "chico"
+      ],
+      "answer": 2,
+      "hint": "Las letras «ch» trabajan juntas.",
+      "explanation": "«Chocolate» y «chico» comienzan con el sonido que representan juntas las letras «ch».",
+      "type": "sound"
+    }
+  ]
+}
